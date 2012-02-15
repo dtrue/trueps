@@ -1,0 +1,2 @@
+1.gap on detail on how to setup ssh config file.
+	--no.de just says append to config but doesn't state where it is at or that its private and read only.  Assumes linux knowledge.
