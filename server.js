@@ -4,9 +4,9 @@
 
 var http = require('http');
  
-var server = http.createServer(function (req, res) {
+var server = http.createServer(function (request, response) {
   res.writeHead(200, { "Content-Type": "text/plain" })
-  res.end("Hello world this is dtrue...that is righ dtrue \n");
+  res.end("Hello \n");
 });
  
 server.listen(process.env.PORT || 8001);
